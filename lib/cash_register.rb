@@ -12,6 +12,7 @@ class CashRegister
       @total += (price * quantity)
       quantity.times do
       @items << item
+      end
       @total
     end
   end
